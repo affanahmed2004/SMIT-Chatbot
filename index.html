@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIT-chatbot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> <span class="S style">S</span>MIT <span class="dash">-</span> <span>C</span>hatBot</h1>
+        <nav>
+            <ul>
+                <li><a href="#"><span class="nav">H</span>ome</a></li>
+                <li><a href="#"><span class="nav">A</span>bout</a></li>
+                <li><a href="#"><span class="nav">B</span>log</a></li>
+                <li><a href="#"><span class="nav">S</span>ervices</a></li>
+                <li><a href="#"><span class="nav">C</span>ontact</a></li>
+            </ul>
+            <button>Sign in</button>
+        </nav>
+    </header>
+
+    <script src="script.js"></script>
+    <div class="hero">
+        <div class="hero-content">
+           
+            <h1><span>S</span>aylani <u><span>J</span>ourney</u></h1>
+            <p style="color: black; border: 8px solid #333; padding: 30px 50px; border-radius: 80px 0px; box-shadow: 8px 14px 8px black;"><span><b>It was founded and headed by spiritual and religious scholar Maulana Bashir Farooq Qadri.With an estimated monthly expenditure of Pakistani Rupees above 30 million, Saylani Trust provides food twice a day to more</b></span> <b>than 30,000 poor people through its 100 centers (generally known as Dastar-Khawan), most of them are serving in Karachi. The organization distributed CNG rickshaws among the jobless citizens of Karachi in April 2011 with the help of members of the Karachi business community.</b></p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>
+    <div class="testimonial-container">
+        <div class="testimonial">
+            <img src="/image/pic5.jpg" alt="User 1">
+            <p class="quote">"Mufti Bashir-ud-din Farooqi is the founder of<span><b> Saylani Welfare Foundation(SWIT).</b></span>"</p>
+            <p class="author">- <span>M</span>aulana <span>B</span>ashir <span>F</span>arooqui</p>
+        </div>
+        <div class="testimonial">
+            <img src="/image/pic6.png" alt="User 2">
+            <p class="quote">"<span><b>Madni Raza is the son of Maulana Bashir Farooqui</b></span> and the MC member & Head of Shariyah Board."</p>
+            <p class="author">- <span>M</span>adni <span>R</span>aza</p>
+        </div>
+        <div class="testimonial">
+            <img src="/image/pic7.jpg" alt="User 3">
+            <p class="quote">"<span><b>Maulana Ilyas Qadri is the founder of Dawateislami</b></span> and he has constructed the masjid of Faizan-e-Madina"</p>
+            <p class="author">- <span>M</span>aulana <span>I</span>lyas <span>Q</span>adri</p>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Contact <span class="h2style">Us</span></h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name"><b><span>N</span>ame:</b></label>
+                <input type="text" id="name" name="name" required placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email"><b><span>E</span>mail:</b></label>
+                <input type="email" id="email" name="email" required placeholder="enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message"><b><span>M</span>essage:</b></label>
+                <textarea id="message" name="message" rows="5" required placeholder="enter your minded message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="content">
+        <h1><span>S</span>MIT - <span>C</span>hatBot</h1>
+        <p><b>This website just give more information about Saylani.</b></p>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span><b>2</b></span>0<span><b>2</b></span>4  <span><b>S</b></span>MIT - <span><b>C</b></span>hatBot</p>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Chatbot-Test"
+  agent-id="7c68e724-618e-47d3-a4b7-095c99267d41"
+  language-code="en"
+></df-messenger>
+</body>
+</html>
